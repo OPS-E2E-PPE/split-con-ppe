@@ -2,8 +2,8 @@
   "docsets_to_publish": [
     {
       "docset_name": "split-con-ppe",
-      "build_source_folder": ".",
-      "build_output_subfolder": "split-con-ppe",
+      "build_source_folder": "split",
+      "build_output_subfolder": "split-ppe",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
@@ -14,7 +14,8 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes"
+      "template_folder": "_themes",
+      "enable_xrefmap_share": true
     }
   ],
   "notification_subscribers": [],
@@ -27,8 +28,13 @@
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
-      "branch_mapping": {}
-    }
+      "branch_mapping": { }
+    },
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "master"
+	  }
   ],
   "branch_target_mapping": {},
   "need_generate_pdf_url_template": false
