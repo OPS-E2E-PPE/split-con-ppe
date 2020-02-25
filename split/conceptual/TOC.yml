@@ -1,6 +1,6 @@
 - name: ConceptualIndex
   href: ../index.md
-  universal_ref_toc: "/split-ppe-invalid/reference/toc.json"
+  universal_ref_toc: "/split-ppe/reference/toc.json"
 - name: content
   href: ../content.md
 - name: content1
