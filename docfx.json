@@ -3,8 +3,11 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
+        "src": "split",
+        "dest": "."
         "exclude": [
           "**/obj/**",
           "**/includes/**",
