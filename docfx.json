@@ -7,7 +7,7 @@
           "**/*.yml"
         ],
         "src": "split",
-        "dest": "."
+        "dest": ".",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
